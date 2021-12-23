@@ -80,7 +80,7 @@ const GameOver = () =>{
         Context.fillStyle = "darkgoldenrod";
         Context.font = "40px Roboto";
         Context.fillText("Przegrywasz", canvas.width/3.5, canvas.height/2);
-        
+        location.reload();
         
        
         
